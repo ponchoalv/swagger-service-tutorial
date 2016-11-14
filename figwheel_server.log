@@ -1,0 +1,153 @@
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.479 seconds.[0m
+[36m----  Could not Analyze  src/cljs/swagger_service/core.cljs  ----[0m
+
+  [1mNo such namespace: ajax.core, could not locate ajax/core.cljs, ajax/core.cljc, or Closure namespace "ajax.core" [0m
+
+[36m----  Analysis Error : Please see src/cljs/swagger_service/core.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.4 seconds.[0m
+[36m----  Could not Analyze  src/cljs/swagger_service/core.cljs  ----[0m
+
+  [1mNo such namespace: ajax.core, could not locate ajax/core.cljs, ajax/core.cljc, or Closure namespace "ajax.core" [0m
+
+[36m----  Analysis Error : Please see src/cljs/swagger_service/core.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.865 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.031 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.772 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.89 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.716 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.801 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/swagger_service/core.cljs   line:13  column:24  ----[0m
+
+  [1mUse of undeclared Var swagger-service.core/reser![0m
+
+  [36m 9[0m  [36m        :handler #(->> %[0m
+  [36m10[0m  [36m                       (partition-all 6)[0m
+  [36m11[0m  [36m                       vec[0m
+  [36m12[0m  [36m                       links[0m
+  [33m13[0m  [1m                       reser!)}))[0m
+  [0m  [0m  [33m                       ^--- Use of undeclared Var swagger-service.core/reser![0m
+  [36m14[0m  [36m[0m
+  [36m15[0m  [36m(defn home-page [][0m
+  [36m16[0m  [36m  (let [links[0m
+  [36m17[0m  [36m        (atom nil)][0m
+  [36m18[0m  [36m    (fetch-links! links 20)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/swagger_service/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.775 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.812 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.692 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.781 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.818 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.924 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.85 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.829 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.897 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.796 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.774 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.78 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.779 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.788 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.846 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.733 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.938 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.738 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.213 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.697 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.715 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.702 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.792 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.831 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.696 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.7 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.689 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.674 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.686 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.749 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.683 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.675 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.684 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.645 seconds.[0m
+notifying browser that file changed:  out\swagger_service\core.js
